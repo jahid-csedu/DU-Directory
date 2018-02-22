@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/call"
+        android:icon="@drawable/ic_call_black_24dp"
+        app:showAsAction="always"
+        android:title="Call" />
+    <item
+        android:id="@+id/email"
+        android:icon="@drawable/ic_mail_black_24dp"
+        app:showAsAction="always"
+        android:title="Email" />
+
+    <item
+        android:id="@+id/mark"
+        android:icon="@drawable/ic_star_black_24dp"
+        app:showAsAction="always"
+        android:title="Bookmark" />
+
+</menu>
